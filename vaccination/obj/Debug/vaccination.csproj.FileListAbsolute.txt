@@ -1,0 +1,41 @@
+F:\[Visual Studio]\vaccination\vaccination\bin\Debug\medoffice.mdb
+F:\[Visual Studio]\vaccination\vaccination\bin\Debug\vaccination.exe.config
+F:\[Visual Studio]\vaccination\vaccination\bin\Debug\vaccination.exe
+F:\[Visual Studio]\vaccination\vaccination\bin\Debug\vaccination.pdb
+F:\[Visual Studio]\vaccination\vaccination\obj\Debug\vaccination.FormEditStudents.resources
+F:\[Visual Studio]\vaccination\vaccination\obj\Debug\vaccination.FormGroups.resources
+F:\[Visual Studio]\vaccination\vaccination\obj\Debug\vaccination.FormMain.resources
+F:\[Visual Studio]\vaccination\vaccination\obj\Debug\vaccination.FormQueryVaccinationToDo.resources
+F:\[Visual Studio]\vaccination\vaccination\obj\Debug\vaccination.FormSearchGroups.resources
+F:\[Visual Studio]\vaccination\vaccination\obj\Debug\vaccination.FormSearchStudents.resources
+F:\[Visual Studio]\vaccination\vaccination\obj\Debug\vaccination.FormSearchStudentsForDisplay.resources
+F:\[Visual Studio]\vaccination\vaccination\obj\Debug\vaccination.FormStudents.resources
+F:\[Visual Studio]\vaccination\vaccination\obj\Debug\vaccination.FormVaccination.resources
+F:\[Visual Studio]\vaccination\vaccination\obj\Debug\vaccination.FormVaccineTypes.resources
+F:\[Visual Studio]\vaccination\vaccination\obj\Debug\vaccination.Properties.Resources.resources
+F:\[Visual Studio]\vaccination\vaccination\obj\Debug\vaccination.csproj.GenerateResource.Cache
+F:\[Visual Studio]\vaccination\vaccination\obj\Debug\vaccination.exe
+F:\[Visual Studio]\vaccination\vaccination\obj\Debug\vaccination.pdb
+F:\[Visual Studio]\vaccination\vaccination\obj\Debug\vaccination.csprojResolveAssemblyReference.cache
+F:\vaccination\vaccination\bin\Debug\medoffice.mdb
+F:\vaccination\vaccination\bin\Debug\vaccination.exe.config
+F:\vaccination\vaccination\bin\Debug\vaccination.exe
+F:\vaccination\vaccination\bin\Debug\vaccination.pdb
+F:\vaccination\vaccination\obj\Debug\vaccination.csprojResolveAssemblyReference.cache
+F:\vaccination\vaccination\obj\Debug\vaccination.FormEditStudents.resources
+F:\vaccination\vaccination\obj\Debug\vaccination.FormGroups.resources
+F:\vaccination\vaccination\obj\Debug\vaccination.FormMain.resources
+F:\vaccination\vaccination\obj\Debug\vaccination.FormQueryVaccinationToDo.resources
+F:\vaccination\vaccination\obj\Debug\vaccination.FormSearchGroups.resources
+F:\vaccination\vaccination\obj\Debug\vaccination.FormSearchStudents.resources
+F:\vaccination\vaccination\obj\Debug\vaccination.FormSearchStudentsForDisplay.resources
+F:\vaccination\vaccination\obj\Debug\vaccination.FormStudents.resources
+F:\vaccination\vaccination\obj\Debug\vaccination.FormVaccination.resources
+F:\vaccination\vaccination\obj\Debug\vaccination.FormVaccineTypes.resources
+F:\vaccination\vaccination\obj\Debug\vaccination.Properties.Resources.resources
+F:\vaccination\vaccination\obj\Debug\vaccination.csproj.GenerateResource.Cache
+F:\vaccination\vaccination\obj\Debug\vaccination.exe
+F:\vaccination\vaccination\obj\Debug\vaccination.pdb
+F:\vaccination\vaccination\obj\Debug\vaccination.FormEditVaccination.resources
+F:\[Visual Studio]\vaccination\vaccination\obj\Debug\vaccination.FormEditVaccination.resources
+F:\[Visual Studio]\vaccination\vaccination\obj\Debug\vaccination.FormSearchVaccination.resources

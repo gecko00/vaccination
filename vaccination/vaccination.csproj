@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{27CBB1B2-732C-42E3-9510-F2D844956A41}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>vaccination</RootNamespace>
+    <AssemblyName>vaccination</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormEditStudents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEditStudents.Designer.cs">
+      <DependentUpon>FormEditStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEditVaccination.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEditVaccination.Designer.cs">
+      <DependentUpon>FormEditVaccination.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGroups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGroups.Designer.cs">
+      <DependentUpon>FormGroups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormQueryVaccinationToDo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormQueryVaccinationToDo.Designer.cs">
+      <DependentUpon>FormQueryVaccinationToDo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSearchGroups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSearchGroups.Designer.cs">
+      <DependentUpon>FormSearchGroups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSearchStudents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSearchStudents.Designer.cs">
+      <DependentUpon>FormSearchStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSearchStudentsForDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSearchStudentsForDisplay.Designer.cs">
+      <DependentUpon>FormSearchStudentsForDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSearchVaccination.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSearchVaccination.Designer.cs">
+      <DependentUpon>FormSearchVaccination.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormStudents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStudents.designer.cs">
+      <DependentUpon>FormStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVaccination.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVaccination.Designer.cs">
+      <DependentUpon>FormVaccination.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVaccineTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVaccineTypes.Designer.cs">
+      <DependentUpon>FormVaccineTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="medofficeDataSet.cs">
+      <DependentUpon>medofficeDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="medofficeDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>medofficeDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormEditStudents.resx">
+      <DependentUpon>FormEditStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEditVaccination.resx">
+      <DependentUpon>FormEditVaccination.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGroups.resx">
+      <DependentUpon>FormGroups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormQueryVaccinationToDo.resx">
+      <DependentUpon>FormQueryVaccinationToDo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSearchGroups.resx">
+      <DependentUpon>FormSearchGroups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSearchStudents.resx">
+      <DependentUpon>FormSearchStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSearchStudentsForDisplay.resx">
+      <DependentUpon>FormSearchStudentsForDisplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSearchVaccination.resx">
+      <DependentUpon>FormSearchVaccination.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStudents.resx">
+      <DependentUpon>FormStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVaccination.resx">
+      <DependentUpon>FormVaccination.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVaccineTypes.resx">
+      <DependentUpon>FormVaccineTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="medofficeDataSet.xsc">
+      <DependentUpon>medofficeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="medofficeDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>medofficeDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="medofficeDataSet.xss">
+      <DependentUpon>medofficeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="medoffice.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\accept.png" />
+    <None Include="Resources\decline.png" />
+    <None Include="Resources\edit.png" />
+    <None Include="Resources\delete.png" />
+    <None Include="Resources\add.png" />
+    <None Include="Resources\filter.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
